@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  background-color: #e7e2ff;
+}
+
+.boxWrap {
+  width: 90%;
+  margin: 0 auto;
+}
+.boxWrap .box {
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.boxWrap .box:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.boxWrap .box .inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.boxWrap .box1 {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(125, 118, 255);
+}
+.boxWrap .boxSide {
+  display: flex;
+}
+.boxWrap .boxSide .box2 {
+  width: 30%;
+  height: 400px;
+  background-color: rgb(108, 102, 223);
+}
+.boxWrap .boxSide .box3 {
+  width: 70%;
+  height: 400px;
+  background-color: rgb(85, 27, 220);
+}
+.boxWrap .box4 {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(99, 2, 255);
+}
+@media (max-width: 768px) {
+  .boxWrap .box {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .boxWrap .boxSide {
+    display: block;
+  }
+}/*# sourceMappingURL=test.css.map */
